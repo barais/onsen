@@ -1,5 +1,8 @@
 # onsen
 
+## Step 0
+Please install JDK, Graddle, nodejs and Android SDK
+
 ## Install Monaca CLI, an Onsen UI toolkit
 
 First install Node.js. Then, install Monaca CLI via npm, which provides command-line interface for Onsen UI development. Or, if you prefer GUI, download and install Monaca Localkit desktop app for Windows and OS X.
@@ -34,6 +37,10 @@ monaca remote build # Build the app
 ```
 
 ## Call a Rest Web services
+
+Get Star Wars API info. 
+
+http://www.swapi.co
 
 https://www.ibm.com/developerworks/community/blogs/victorsh/entry/march_11_2014_8_58_pm?lang=en
 
