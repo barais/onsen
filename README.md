@@ -43,12 +43,23 @@ https://docs.monaca.io/en/reference/cordova_5.2/network-information/
  
 
 
-##Notes
+## Notes
 
+```bash
+# To start the emulators
+export ANDROID_HOME=~/Android/Sdk
 ~/Android/Sdk/emulator/emulator -list-avds
 ~/Android/Sdk/emulator/emulator @Nexus_5X_API_24
+```
 
+```bash
 export ANDROID_HOME=~/Android/Sdk
+cordova platform add android
+cordova prepare              # or "cordova build"
+cordova emulate android
+cordova run android --device 
+
+```
 
 
 https://cordova.apache.org/docs/fr/latest/guide/platforms/android/
